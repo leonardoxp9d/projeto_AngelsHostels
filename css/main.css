@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .top-header{
-    text-align: center; /*Pode colocar text-align pois imagem e um elemento de linha*/
+    text-align: center; 
 }
 .top-header-logo{
     margin: .5em;
@@ -33,13 +33,13 @@ h1, h2, h3, h4, h5, h6{
 .top-nav ul{
     margin: 0;
     padding: 0;
-    list-style: none; /*ou list-style-type: none;*/   
+    list-style: none; 
 }
 .top-nav a{
     color: white;
-    text-decoration: none;/*tira o sublinhado*/
+    text-decoration: none;
     padding: 1em; 
-    display: block; /*porque o padding e margin só e aplicado em elemento de bloco*/
+    display: block; 
 }
 .top-nav a:hover{
     background: #7c3792;
@@ -59,4 +59,23 @@ h1, h2, h3, h4, h5, h6{
     color: #a87bb7;
     font-size: 1em;
     line-height: 1.5;
+}
+
+.middle-content{
+    padding: 2em;
+    color: #652e78;
+    text-align: center;
+}
+.middle-content-title{
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+.middle-content p{
+    line-height: 1.5;
+    color: #222;
+}
+.middle-content span[class^=icon]{
+    font-size: 3.5em;
+    color: #652e78;
 }
